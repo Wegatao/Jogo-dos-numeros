@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+/* main game */
+#main-game{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+
+}
+
+#main-game-container{
+   /**/
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 10%;
+    width: 30%;
+}
+
+#main-game-container :hover{
+     background-color:#801245;
+     color: #eeee;
+     transition: 2s;
+}
+
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 10px;
+
+   
+
+}
+
+#name-criador{
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-98%, -50%);
+}

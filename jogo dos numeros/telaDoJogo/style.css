@@ -1,0 +1,153 @@
+/* Estilos para o cabeçalho */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f5f5f267 ;
+    height: 80vh;
+    text-align: center;
+}
+#container-body{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f4f4dd; /* Cor de fundo */
+    padding: 3px; /* Espaçamento interno */
+    text-align: center; /* Alinhar texto ao centro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    position: fixed;
+    width: 100%;
+}
+
+/* Estilo para o conteúdo dentro do cabeçalho */
+#header-container {
+    color:  #3d3d34;/* cor do texto */
+    font-size: 15px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+
+}#header-container h2{
+    font-family: "VT323", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+/* Estilização para o contêiner principal do jogo */
+/* Estilização para o contêiner principal do jogo */
+#main-content-Game {
+    width: 350px;
+    background-color: #f4f4dd; /* Amarelo claro */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 50px; /* Espaçamento superior */
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilização para o título "Game" */
+#main-content-Game h2 {
+    color: #801245; /* Roxo escuro */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    font-size: 50px;
+    margin: 0;
+    
+}
+
+/* Estilização para o contêiner principal do jogo */
+#main-Game {
+    margin-top: 20px;
+    background-color: #dcdbaf; /* Bege */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+/* Estilização para o conteúdo de geração */
+#main-content-Geração {
+    background-color: #5d5c49; /* Verde militar */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 24px; /* Tamanho da fonte */
+    color: #fff; /* Branco */
+    text-align: center; /* Alinhamento de texto central */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+/* Estilização para o campo de entrada de número */
+#Gerater {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid #9b9b95; /* Cinza escuro */
+    box-sizing: border-box; /* Incluir borda no cálculo da largura */
+}
+
+
+
+
+/* Estilos para o placar */
+#placar {
+    background-color: #f4f4dd; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center;    
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    width: 350px;
+}
+
+/* Estilos para os elementos dentro do placar */
+#placar h3 {
+    margin-bottom: 15px; /* Espaçamento inferior */
+    color: #801245; /* Cor do texto */
+    font-size: 40px;
+}
+
+.placar-item {
+    display: flex; /* Exibir os itens em linha */
+    justify-content: space-between; /* Distribuir o espaço entre os itens */
+    align-items: center; /* Alinhar verticalmente os itens */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+    border-bottom: 1px solid #ccc; /* Linha divisória */
+}
+
+.placar-item h4 {
+    margin: 0; /* Remover margem */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #5d5c49; /* Cor do texto */
+}
+
+.placar-item p {
+    margin: 0; /* Remover margem */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #3d3d34; /* Cor do texto */
+    text-align: right; /* Alinhar o texto à direita */
+    flex: 1; /* Ocupar todo o espaço disponível */
+}
+
+#criador{
+   color: #ccc;
+   position: absolute;
+   top: 100%;
+   left: 0%;
+   background-color: #f4f4dd; /* Cor de fundo */
+   padding: 3px; /* Espaçamento interno */
+   text-align: center; /* Alinhar texto ao centro */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+   width: 100%;
+}
